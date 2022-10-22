@@ -13,6 +13,7 @@ const TodoList = ({ todos, setTodos, filteredTodos }) => {
             key={todo.id}
             todo={todo}
             text={todo.text}
+            deadlineFormatted={todo.deadlineFormatted}
           />
         ))}
       </ul>
