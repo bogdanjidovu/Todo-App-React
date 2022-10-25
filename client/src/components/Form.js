@@ -85,8 +85,8 @@ const Form = ({
       </button>
       <div className="select">
         <select onChange={statusHandler} name="todos" className="filter-todo">
-          <option value="today">Today</option>
           <option value="all">All</option>
+          <option value="today">Today</option>
           <option value="uncompleted">Uncompleted</option>
           <option value="completed">Completed</option>
           <option value="earlier">Earlier</option>
